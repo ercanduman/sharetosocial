@@ -14,14 +14,11 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
+apply plugin: 'android-maven'
 
 allprojects {
     repositories {
         google()
         jcenter()
     }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
 }
