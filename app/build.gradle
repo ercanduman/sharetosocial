@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "ercanduman.sharetosocial"
+        applicationId "ercanduman.sharetosocialsample"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
@@ -18,7 +18,8 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'androidx.appcompat:appcompat:1.1.0-alpha01'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha3'
+    implementation project(':sharetosocial')
 }
