@@ -3,6 +3,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.ercanduman'
 
 android {
+    publishNonDefault true
     compileSdkVersion 28
     defaultConfig {
         minSdkVersion 16
