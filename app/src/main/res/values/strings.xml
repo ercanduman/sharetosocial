@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ShareToSocial</string>
+    <string name="show_developer_apps">Show Developer Apps</string>
+    <string name="show_second_app">Show Second App</string>
+    <string name="share_to_general">Share To General</string>
+    <string name="share_to_facebook">Share To Facebook</string>
+    <string name="share_to_twitter">Share To Twitter</string>
 </resources>
