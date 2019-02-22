@@ -1,5 +1,5 @@
 # Share To Social
-This is first library for reusage of same functionalities such as sharing app to Facebook, Twitter etc.
+This is first library for usages of same functionalities such as sharing app to Facebook, Twitter etc.
 
 ## How to use
 To get a Git project into your build:
@@ -22,3 +22,5 @@ Add it in your root build.gradle at the end of repositories:
 	        implementation 'com.github.ercanduman:sharetosocial:Tag'
 	}
 ```
+
+You can check sample code and usage of this library in app module.
