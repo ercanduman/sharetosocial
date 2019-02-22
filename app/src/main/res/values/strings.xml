@@ -5,4 +5,5 @@
     <string name="share_to_general">Share To General</string>
     <string name="share_to_facebook">Share To Facebook</string>
     <string name="share_to_twitter">Share To Twitter</string>
+    <string name="contact_via_email">Contact via E-mail</string>
 </resources>

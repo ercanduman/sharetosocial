@@ -35,4 +35,8 @@ public class MainActivity extends AppCompatActivity {
     public void shareToTwitter(View view) {
         ShareActions.shareAppToTwitter(this);
     }
+
+    public void contactViaEmail(View view) {
+        ShareActions.contactViaEmail(this, getString(R.string.app_name), new String[]{"ercanduman30@gmail.com"});
+    }
 }

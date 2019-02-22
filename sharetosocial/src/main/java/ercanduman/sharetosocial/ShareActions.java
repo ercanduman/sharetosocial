@@ -89,4 +89,14 @@ public class ShareActions {
             context.startActivity(shareIntent);
         }
     }
+
+    public static void contactViaEmail(Context context, String emailSubject, String[] recipients) {
+        StringBuilder recipientBuilder = new StringBuilder();
+        for (String recipient : recipients) recipientBuilder.append(recipient).append(";");
+
+        Intent emailIntent = new Intent(Intent.ACTION_VIEW);
+        Uri data = Uri.parse("mailto:?subject=" + emailSubject + "&to=" + recipientBuilder.toString());
+        emailIntent.setData(data);
+        context.startActivity(Intent.createChooser(emailIntent,"Send E-Mail"));
+    }
 }
